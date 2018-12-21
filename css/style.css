@@ -1,15 +1,24 @@
 html,body{
 	margin: 0;
+	line-height: 1.5;
+	font-family:'Assistant', sans-serif;
 }
 li{
 	list-style-type: none;
 }
-.navbar-left{
+ul{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.all_menu{
 	display: flex;
 	width: 100%;
 	position: fixed;
 	top: 0;
-	padding: 30px 50px 35px;
+	padding: 26px 50px 35px;
 	background-color: silver;
 
 }
@@ -31,11 +40,21 @@ li{
 	left: 8px;
 }
 
-.navbar_logo{
-	width: auto;
-	position: relative;	
-}
 
 .navbar_menu_center{
 	display: flex;
+	box-sizing: inherit;
+}
+
+.nav_bar_menu_center_item{
+	padding: 17px;
+	
+
+	
+}
+
+.nav_bar_menu_center_item a{
+	color: rgba(77,77,77,.8);
+	font-weight: bold;
+	font-size: 18px;
 }
