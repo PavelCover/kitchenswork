@@ -1,3 +1,6 @@
+*{
+	box-sizing: inherit;
+}
 html,body{
 	margin: 0;
 	line-height: 1.5;
@@ -60,4 +63,13 @@ a{
 	font-weight: bold;
 	font-size: 18px;
 	font-family: 'Nunito', sans-serif;
+}
+
+.homepage{
+	height: 100vh;
+	background-image: url(https://happy-kitchens.imgix.net/storage/uploads/homepage/kitchen-makeover-hampshire.png?w=1920&h=950&fit=crop&crop=edges,focalpoint&q=75&auto=format);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
 }
