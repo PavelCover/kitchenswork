@@ -8,10 +8,13 @@ html,body{
 }
 li{
 	list-style-type: none;
+	padding: 0;
+    margin: 0;
 }
 ul{
-	
-	margin: 0;
+	padding: 0;
+    margin: 0;
+	list-style-type: none;
 }
 a{
 	text-decoration: none;
@@ -22,7 +25,7 @@ a{
 	position: fixed;
 	top: 0;
 	padding: 26px 50px 35px;
-	background-color: silver;
+	background-color: white;
 
 }
 .sprite_logo{
@@ -53,9 +56,6 @@ a{
 
 .nav_bar_menu_center_item{
 	padding: 17px;
-	
-
-	
 }
 
 .nav_bar_menu_center_item a{
@@ -72,4 +72,32 @@ a{
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 
+}
+
+.navbar_menu_right{
+	display: flex;
+
+}
+
+.navbar_menu_item_right a{
+	color: rgba(77,77,77,.8);
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	margin-left: 50px;
+
+}
+@font-face{
+	font-family: Crossten-Extrabold
+	src: url(fons/Crossten-Extrabold.ttf);
+}
+.animation_first{
+	width: 30%;
+	height: auto;
+	position: relative;
+    background-color: #fff;
+}
+
+.animation_first h1{
+	font-family: Crossten-Extrabold,sans-serif;
 }
